@@ -1,0 +1,52 @@
+import Link from "next/link";
+import { FaUserAlt } from "react-icons/fa";
+import { MdMenuBook } from "react-icons/md";
+import Image from "next/image";
+
+import { IoBook, IoHomeSharp } from "react-icons/io5";
+import Hamburger from "./Hamburger";
+import NavLink from "./NavLink";
+
+const navLinks = [
+  { label: "Home", href: "/", icon: <IoHomeSharp /> },
+  { label: "All Books", href: "/all-books", icon: <IoBook /> },
+  { label: "My Profile", href: "/profile", icon: <FaUserAlt /> },
+];
+
+export default function Navbar() {
+  return (
+    <nav className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md">
+       <div className="mx-auto flex h-16 max-w-11/12 items-center justify-between">
+        <div className="flex items-center justify-center gap-2">
+          <Hamburger navLinks={navLinks} className="md:hidden" />
+          <Link
+            href="/"
+            className="flex items-center gap-2 text-2xl font-bold tracking-tight text-emerald-900 hover:text-emerald-700"
+          >
+            <MdMenuBook />
+            OpenShelf
+          </Link>
+        </div>
+       
+        
+        <ul className="hidden items-center gap-1 sm:flex">
+          {navLinks.map((navItems, index) => (
+            <NavLink key={index} navItems={navItems} />
+          ))}
+        </ul>
+
+        <div className="flex items-center gap-3">
+          <div className="relative h-9 w-9 overflow-hidden rounded-full ring-2 ring-emerald-400">
+            <Image
+              src="https://img.icons8.com/color/1200/user.jpg"
+              alt="User avatar"
+              className="h-full w-full object-cover"
+              height={200}
+              width={200}
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+}
