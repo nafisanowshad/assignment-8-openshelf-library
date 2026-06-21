@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "title": "Quantum Computing",
+    "author": "Brian Clegg",
+    "description": "Unlock the core concepts of quantum computing and mechanics. Explore how next-gen qubits will redefine the future of technology.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://i.ibb.co.com/Xkpj3ncD/image.png"
+  },
+  {
+    "id": "2",
+    "title": "Whispers of the Wind",
+    "author": "Jeyna Geace",
+    "description": "A gripping tale of mystery and romance set in a coastal town. Follow the secrets carried away by the whispers of the wind.",
+    "category": "Story",
+    "available_quantity": 3,
+    "image_url": "https://i.ibb.co.com/mjb6cdC/image.png"
+  },
+  {
+    "id": "3",
+    "title": "React and React Native",
+    "author": "Mikhail Sakhniuk",
+    "description": "Master frontend development with React and React Native frameworks. Build powerful, cross-platform apps using a single codebase.",
+    "category": "Tech",
+    "available_quantity": 10,
+    "image_url": "https://i.ibb.co.com/39qgcLzT/image.png"
+  },
+  {
+    "id": "4",
+    "title": "Cosmos",
+    "author": "Ann Druyan",
+    "description": "A breathtaking journey into the deepest corners of the cosmos. Uncover the ultimate secrets governing our vast, infinite universe.",
+    "category": "Science",
+    "available_quantity": 2,
+    "image_url": "https://i.ibb.co.com/rGZnGBHq/image.png"
+  },
+  {
+    "id": "5",
+    "title": "The Last Kingdom",
+    "author": "Bernard Cornwell",
+    "description": "Dive into the epic, war-torn origin story of the last kingdom. An incredible historical fiction chronicle on the creation of England.",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://i.ibb.co.com/3YM2nFgf/image.png"
+  },
+  {
+    "id": "6",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "The definitive handbook for writing clean code and refactoring. Elevate your programming skills with elite software craftsmanship.",
+    "category": "Tech",
+    "available_quantity": 15,
+    "image_url": "https://i.ibb.co.com/QFxHWdZ8/image.png"
+  },
+  {
+    "id": "7",
+    "title": "Deep Learning Illustrated",
+    "author": "Jon Krohn",
+    "description": "A highly visual guide directly illustrating deep learning systems. Master complex artificial intelligence algorithms with practical ease.",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://i.ibb.co.com/67XGFBkM/image.png"
+  },
+  {
+    "id": "8",
+    "title": "Echoes of Eternity",
+    "author": "Hal M. Helms",
+    "description": "Hear the romantic echoes of eternity call across endless lifetimes. A beautiful, poetic story of two destined souls finding each other.",
+    "category": "Story",
+    "available_quantity": 2,
+    "image_url": "https://i.ibb.co.com/v6dz30Zc/image.png"
+  },
+  {
+    "id": "9",
+    "title": "The Physics of Everyday Life",
+    "author": "James Kakalions",
+    "description": "Discover the incredible physics of everyday life hiding all around us. Learn how fundamental science laws govern each action we take daily.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://i.ibb.co.com/qYDHGPd6/image.png"
+  },
+  {
+    "id": "10",
+    "title": "System Design Interview",
+    "author": "Alex Xu",
+    "description": "An essential guide to acing your next big system design interview. Learn how to architecture scalable enterprise platforms from scratch.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://i.ibb.co.com/YFRYK23X/image.png"
+  },
+  {
+    "id": "11",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "Stephen Hawking's masterpiece on the brief history of time. Explore complex cosmic mysteries from the Big Bang to black holes.",
+    "category": "Science",
+    "available_quantity": 1,
+    "image_url": "https://i.ibb.co.com/HLgnLwgx/image.png"
+  },
+  {
+    "id": "12",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "Follow the legendary journey of a young shepherd in The Alchemist. A classic novel about pursuing your dreams and personal legend.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://i.ibb.co.com/tT9hJp9T/image.png"
+  }
+]
