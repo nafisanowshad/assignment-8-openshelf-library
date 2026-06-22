@@ -6,6 +6,7 @@ import Image from "next/image";
 import { IoBook, IoHomeSharp } from "react-icons/io5";
 import Hamburger from "./Hamburger";
 import NavLink from "./NavLink";
+import SignInButton from "./SignInButton";
 
 const navLinks = [
   { label: "Home", href: "/", icon: <IoHomeSharp /> },
@@ -36,15 +37,7 @@ const Navbar = () => {
         </ul>
 
         <div className="flex items-center gap-3">
-          <div className="relative h-9 w-9 overflow-hidden rounded-full ring-2 ring-emerald-400">
-            <Image
-              src=""
-              alt="User avatar"
-              className="h-full w-full object-cover"
-              height={200}
-              width={200}
-            />
-          </div>
+          <SignInButton/>
         </div>
       </div>
     </nav>

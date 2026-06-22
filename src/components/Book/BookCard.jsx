@@ -59,11 +59,11 @@ const BookCard = ({ book }) => {
 
         <div className="grid min-h-16 grid-cols-[1fr_auto] items-center gap-3 border-t border-slate-200 pt-4 mt-4">
           <p className="text-sm font-semibold leading-tight text-slate-700">
-            Want to Borrow
+            Borrow
           </p>
           <Link
             href={`/all-books/${id}`}
-            className="inline-flex h-12 items-center rounded-lg bg-emerald-500 px-4 text-sm font-semibold text-white transition hover:bg-emerald-600"
+            className="inline-flex h-12 items-center rounded-lg bg-emerald-700 px-4 text-sm font-semibold text-white transition hover:bg-emerald-800"
           >
             View Book Details
           </Link>
