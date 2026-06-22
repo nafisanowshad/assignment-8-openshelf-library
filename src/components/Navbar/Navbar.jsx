@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <div className="relative h-9 w-9 overflow-hidden rounded-full ring-2 ring-emerald-400">
             <Image
-              src="https://img.icons8.com/color/1200/user.jpg"
+              src=""
               alt="User avatar"
               className="h-full w-full object-cover"
               height={200}
