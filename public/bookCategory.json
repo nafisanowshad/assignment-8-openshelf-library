@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Quantum Computing",
+    "slug": "quantum-computing"
+  },
+  {
+    "id": "2",
+    "name": "Whispers of the Wind",
+    "slug": "whispers-of-the-wind"
+  },
+  {
+    "id": "3",
+    "name": "React and React Native",
+    "slug": "react-and-react-native"
+  },
+  {
+    "id": "4",
+    "name": "Cosmos",
+    "slug": "cosmos"
+  },
+  {
+    "id": "5",
+    "name": "The Last Kingdom",
+    "slug": "the-last-kingdom"
+  },
+  {
+    "id": "6",
+    "name": "Clean Code",
+    "slug": "clean-code"
+  },
+  {
+    "id": "7",
+    "name": "Deep Learning Illustrated",
+    "slug": "deep-learning-illustrated"
+  },
+  {
+    "id": "8",
+    "name": "Echoes of Eternity",
+    "slug": "echoes-of-eternity"
+  },
+  {
+    "id": "9",
+    "name": "The Physics of Everyday Life",
+    "slug": "the-physics-of-everyday-life"
+  },
+  {
+    "id": "10",
+    "name": "System Design Interview",
+    "slug": "system-design-interview"
+  },
+  {
+    "id": "11",
+    "name": "A Brief History of Time",
+    "slug": "a-brief-history-of-time"
+  },
+  {
+    "id": "12",
+    "name": "The Alchemist",
+    "slug": "the-alchemist"
+  }
+]

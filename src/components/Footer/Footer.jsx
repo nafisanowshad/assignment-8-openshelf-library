@@ -32,14 +32,13 @@ const Footer = () => {
           <div className="space-y-4 md:col-span-2 lg:col-span-1">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-2xl font-bold tracking-tight text-[#2f5f52]"
+              className="inline-flex items-center gap-2 text-2xl font-bold tracking-tight text-emerald-900 "
             >
               <MdMenuBook />
               OpenShelf
             </Link>
             <p className="max-w-sm text-sm leading-relaxed text-gray-600">
-               Empowering readers across Bangladesh with a smart, simple online
-               book borrowing platform.
+               A seamless and modern web application designed to digitize the traditional library experience. Users can explore a vast collection of books, filter by categories, and borrow titles digitally. 
             </p>
              <div>
               <h3 className="text-base font-semibold text-gray-900">Contact Us</h3>
