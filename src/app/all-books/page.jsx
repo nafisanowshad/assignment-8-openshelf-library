@@ -1,15 +1,9 @@
 import BookCard from "@/components/Book/BookCard";
+import { categoryData, galleryData } from "@/localdb/localdb";
 
 const AllBooks = async () => {
-  const response = await fetch(
-    "https://assignment-8-openshelf-library.vercel.app/book-data.json",
-  );
-  const booksData = await response.json();
-
-  const categoriesResponse = await fetch(
-    "https://assignment-8-openshelf-library.vercel.app/bookCategory.json",
-  );
-  const categoriesData = await categoriesResponse.json();
+  const booksData = await galleryData();
+  const categoriesData = await categoryData();
 
   return (
     <div className="min-h-screen py-14 space-y-14 md:space-y-32">

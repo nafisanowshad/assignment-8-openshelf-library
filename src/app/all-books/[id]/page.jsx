@@ -1,11 +1,9 @@
 import Image from 'next/image';
+import { galleryData } from "@/localdb/localdb";
 
 const BookDetails = async ({ params }) => {
   const { id } = await params;
-  const response = await fetch(
-    "https://assignment-8-openshelf-library.vercel.app/book-data.json",
-  );
-  const booksData = await response.json();
+  const booksData = await galleryData();
   const book = booksData.find((book) => book.id == id);
 
   return (
