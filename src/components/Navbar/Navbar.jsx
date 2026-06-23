@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { FaUserAlt } from "react-icons/fa";
 import { MdMenuBook } from "react-icons/md";
-import Image from "next/image";
 
 import { IoBook, IoHomeSharp } from "react-icons/io5";
 import Hamburger from "./Hamburger";
@@ -16,13 +15,13 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md">
+     <nav className="sticky top-0 z-50 w-full border-b border-[#9ac5ee] bg-[#dbedff]/85 backdrop-blur-md">
        <div className="mx-auto h-16 max-w-11/12 flex items-center justify-between">
         <div className="flex items-center justify-center gap-2">
           <Hamburger navLinks={navLinks} className="md:hidden" />
           <Link
             href="/"
-            className="flex items-center gap-2 text-2xl font-bold tracking-tight text-emerald-900 hover:text-emerald-700"
+              className="flex items-center gap-2 text-2xl font-bold tracking-tight text-[#0f3d66] transition-colors hover:text-[#1f5d99]"
           >
             <MdMenuBook />
             OpenShelf

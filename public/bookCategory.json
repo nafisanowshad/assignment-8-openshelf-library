@@ -1,62 +1,62 @@
 [
   {
     "id": "1",
-    "name": "Quantum Computing",
+    "name": "Science",
     "slug": "quantum-computing"
   },
   {
     "id": "2",
-    "name": "Whispers of the Wind",
+    "name": "Story",
     "slug": "whispers-of-the-wind"
   },
   {
     "id": "3",
-    "name": "React and React Native",
+    "name": "Tech",
     "slug": "react-and-react-native"
   },
   {
     "id": "4",
-    "name": "Cosmos",
+    "name": "Science",
     "slug": "cosmos"
   },
   {
     "id": "5",
-    "name": "The Last Kingdom",
+    "name": "Story",
     "slug": "the-last-kingdom"
   },
   {
     "id": "6",
-    "name": "Clean Code",
+    "name": "Tech",
     "slug": "clean-code"
   },
   {
     "id": "7",
-    "name": "Deep Learning Illustrated",
+    "name": "Tech",
     "slug": "deep-learning-illustrated"
   },
   {
     "id": "8",
-    "name": "Echoes of Eternity",
+    "name": "Story",
     "slug": "echoes-of-eternity"
   },
   {
     "id": "9",
-    "name": "The Physics of Everyday Life",
+    "name": "Science",
     "slug": "the-physics-of-everyday-life"
   },
   {
     "id": "10",
-    "name": "System Design Interview",
+    "name": "Tech",
     "slug": "system-design-interview"
   },
   {
     "id": "11",
-    "name": "A Brief History of Time",
+    "name": "Science",
     "slug": "a-brief-history-of-time"
   },
   {
     "id": "12",
-    "name": "The Alchemist",
+    "name": "Story",
     "slug": "the-alchemist"
   }
 ]
