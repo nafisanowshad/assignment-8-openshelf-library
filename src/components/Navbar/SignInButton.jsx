@@ -3,7 +3,7 @@ import Image from "next/image";
 const SignInButton = () => {
   return (
    <div className="flex flex-wrap items-center justify-end gap-2 md:gap-3">
-      <div className="relative h-9 w-9 overflow-hidden rounded-full ring-2 ring-[#93c5fd]">
+      {/* <div className="relative h-9 w-9 overflow-hidden rounded-full ring-2 ring-[#93c5fd]">
         <Image
           src=""
           alt="User avatar"
@@ -11,7 +11,7 @@ const SignInButton = () => {
           height={200}
           width={200}
         />
-      </div>
+      </div> */}
         <div className="hidden md:block">
         <p className="font-medium text-[#0f3d66]">Wasif Hasan</p>
       </div>
